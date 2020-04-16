@@ -1,0 +1,32 @@
+.inputFieldBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgba(255,255,255, 1);
+  background-color: rgba(13, 13, 13, 0.5);
+  font-family: 'Permanent Marker', cursive;
+  width: 60%;
+}
+
+.steamNameHeading {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255,255,255, 1);
+  background-color: rgba(13, 13, 13, 0.5);
+  font-family: 'Permanent Marker', cursive;
+  width: 60%;
+}
