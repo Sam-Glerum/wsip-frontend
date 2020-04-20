@@ -7,7 +7,9 @@
 <div class="inputFieldBox">
   <div class="steamNameHeading">
     <h2>Enter your Steam ID below</h2>
-    <input><a routerLink="/game_result"><button (click)="yeet()">Pick a game for me!</button></a>
+    <form [formGroup]="steamIDForm" (ngSubmit)="onSubmit()" class="steamIDForm">
+      <input type="text" formControlName="steamID">
+      <button type="submit">Pick a game for me!</button>
+    </form>
   </div>
-
 </div>
